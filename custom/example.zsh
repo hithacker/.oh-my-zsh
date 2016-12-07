@@ -8,3 +8,5 @@
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
 #
+alias zgc='cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh'
+alias gstr='find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '"'"'(echo {} && cd {} && git status -s && echo)'"'"' \';
